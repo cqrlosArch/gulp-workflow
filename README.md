@@ -16,7 +16,7 @@ Use Browser Sync to mode development.
 ***
 
 <p align="center">
-  <img src="screenshot.png">
+  <img src="screen.png">
 </p>
 
 ## How To Use
