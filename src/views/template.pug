@@ -1,0 +1,19 @@
+block config
+    include config/vars
+doctype
+html(lang="en")
+    head
+        block metaTags
+            include includes/favicons
+            include includes/meta_tags
+        block styles
+            <!-- build:css -->
+            link(rel="stylesheet" href='./css/styles.css')
+            <!-- endbuild -->
+    body
+        block content
+
+        block scripts
+            <!-- build:js -->
+            script(src='js/bundle.js' defer)
+            <!-- endbuild -->
